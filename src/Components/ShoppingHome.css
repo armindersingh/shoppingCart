@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+
+header .leftAside {
+    width:10%;
+}
+
+header .leftAside img {
+    height: 100%;
+}
+
+header .headerMain {
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+}
+
+header main input{
+    width: 70%;
+    height: 35px;
+}
+
+header .rightAside {
+    padding: 15px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rightAside > div {
+    display:flex;
+}
+
+.rightAside > div > div  > img {
+    width: 20px;
+    height: 20px;
+}
+
+.mainContainer {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 3fr;
+    overflow: scroll;
+    grid-row-gap: 10px;
+}
+
+main aside {
+    max-height: 80vh;
+    overflow: scroll;
+    padding:10px;
+}
+
+main article {
+    border-left: 1px solid black;
+    display: flex;
+    overflow: scroll;
+    max-height: 80vh;
+    flex-wrap: wrap;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.filterResetFilterHeadings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterResetFilterHeadings button {
+    height: 30px;
+}

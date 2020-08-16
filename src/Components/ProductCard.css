@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.container .productInfo {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 4px;
+}
+
+.container img {
+    min-height: 65%;
+}
+
+.productInfo .rightDiv {
+    text-align: right;
+}
+
+.plusSignDiv{
+    display: flex;
+}
+
+.plusSignDiv > div > img {
+    height:20px;
+    width:20px;
+}

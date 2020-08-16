@@ -1,0 +1,19 @@
+.loginComponentParent {
+    display: grid;
+    grid-row-gap: 5px;
+}
+
+.loginComponentParent input {
+    height:35px;
+    font-size: x-large;
+}
+
+.loginComponentParent div {
+    text-align: center;
+}
+
+.loginComponentParent div>button {
+    width:50%;
+    padding:5px;
+    font-size: large;
+}
